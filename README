@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=690
+
+A syntax file for editing Flash actionscript with Vim.
+
+Add this command to your vimrc file:
+au BufNewFile,BufRead *.as	setf actionscript
+
+and delete or otherwise override the default mapping of .as files to Atlas
